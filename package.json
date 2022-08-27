@@ -1,0 +1,26 @@
+{
+  "name": "gbk-webapp-template",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "Gibki Labs Corporation",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "parcel serve public/index.html",
+    "build": "parcel build public/index.html"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.2.9",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "framer-motion": "^7.2.1",
+    "parcel": "^2.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "process": "^0.11.10"
+  }
+}
